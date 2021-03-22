@@ -1,4 +1,4 @@
-name: test_push_notification
+name: test_leafletmaps
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -15,8 +15,6 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-
-
 version: 1.0.0+1
 
 environment:
@@ -25,50 +23,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_map:
+  google_maps_flutter:
+ # google_map_polyline:
+  permission:
+  geocoding:
+  flutter_polyline_points:
+  geolocator: ^5.3.0
+  map_polyline_draw: ^1.0.2
+  json_serializable: ^3.3.0
+  http: ^0.12.0+1
+  mapbox_search: any
+#  flutter_osm_plugin:
 
 
-  flutter_swiper: ^1.1.6
-  google_fonts: ^0.3.2
-  flutter_local_notifications: ^1.4.4+2
-  fluttertoast: ^7.1.6
-  meta: ^1.1.8
-  flutter_bloc: ^6.0.0
-  formz: ^0.3.1
-  http: ^0.12.2
-  rxdart: ^0.22.0
-  equatable: ^1.2.5
-  toast: ^0.1.4  #Ruhul 23-08-2020
-  google_maps_flutter: 0.5.30  #Ruhul 23-08-2020
-  geolocator: ^5.3.2+2  #Ruhul 23-08-2020
-  location: ^3.0.2 #Ruhul 23-08-2020
-  image_picker: 0.6.7+6 #Ruhul 25-08-2020
-  image_cropper: 1.3.0 #Ruhul 25-08-2020
-  intl: 0.16.1  #Ruhul 25-08-2020
-  path_provider: #Ruhul 03-09-2020
-  path: ^1.7.0 #Ruhul 03-09-2020
-  bubble: 1.1.9+1
-  sqflite: ^1.3.2+1 #Ruhul 02-01-2021
-  connectivity_plus: ^0.5.0 #Ruhul 08-01-2021
-  flutter_map: any #Ruhul 09-01-2021
-  giffy_dialog: ^1.8.0 #Ruhul 10-02-2021
-  shared_preferences:
-  rotated_corner_decoration: ^1.0.2 #14-02-2021
-  local_auth: ^0.6.3+4 #15-02-2021
-
-  animate_do: ^1.7.5
-  bloc: ^6.1.1
-  device_preview: ^0.5.5
-  flare_flutter: ^2.0.6
-  hydrated_bloc: ^6.1.0
-  simple_animations: ^2.5.1
-  sizer: ^1.1.8
 
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.0
-
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -86,8 +60,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

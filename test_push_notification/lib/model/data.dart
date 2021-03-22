@@ -77,3 +77,188 @@ List<PlanetInfo> planets = [
           "The eighth planet from the sun, Neptune is about the size of Uranus and is known for supersonic strong winds. Neptune is far out and cold. The planet is more than 30 times as far from the sun as Earth. Neptune was the first planet predicted to exist by using math, before it was visually detected. Irregularities in the orbit of Uranus led French astronomer Alexis Bouvard to suggest some other planet might be exerting a gravitational tug. German astronomer Johann Galle used calculations to help find Neptune in a telescope. Neptune is about 17 times as massive as Earth and has a rocky core.",
       images: []),
 ];
+
+//
+// child: SafeArea(
+// child: Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: <Widget>[
+// Expanded(
+// child: Column(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: <Widget>[
+// Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: [
+// InkWell(
+// child: Icon(
+// Icons.sentiment_very_dissatisfied,
+// color: Colors.red,
+// ),
+// onTap: () {
+// debugPrint('Not Done');
+// // Fluttertoast.showToast(
+// //   msg: "This is Toast messaget",
+// //   gravity: ToastGravity.CENTER,
+// // );
+// },
+// ),
+// ],
+// ),
+// Expanded(
+// child: Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment:
+// CrossAxisAlignment.center,
+// children: [
+// Text(
+// 'Not Done',
+// ),
+// ],
+// ),
+// ),
+// ],
+// ),
+// ),
+// Expanded(
+// child: Column(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: <Widget>[
+// Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: [
+// InkWell(
+// child: Icon(
+// Icons.sentiment_satisfied,
+// color: Colors.grey,
+// ),
+// onTap: () {
+// debugPrint('SoSo');
+// },
+// ),
+// ],
+// ),
+// Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: [
+// Text(
+// 'SoSo',
+// ),
+// ],
+// ),
+// ],
+// ),
+// ),
+// Expanded(
+// child: Column(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: <Widget>[
+// Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: [
+// InkWell(
+// child: Icon(
+// Icons.sentiment_satisfied_alt_sharp,
+// color: Colors.cyanAccent,
+// ),
+// onTap: () {
+// debugPrint('Good');
+// },
+// ),
+// ],
+// ),
+// Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: [
+// Text(
+// 'Good',
+// ),
+// ],
+// ),
+// ],
+// ),
+// ),
+// Expanded(
+// child: Column(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: <Widget>[
+// Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: [
+// InkWell(
+// child: Icon(
+// Icons.sentiment_very_satisfied_outlined,
+// color: Colors.yellow,
+// ),
+// onTap: () {
+// debugPrint('Vary Good');
+// },
+// ),
+// ],
+// ),
+// Expanded(
+// child: Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment:
+// CrossAxisAlignment.center,
+// children: [
+// Text(
+// 'Vary Good',
+// ),
+// ],
+// ),
+// ),
+// ],
+// ),
+// ),
+// Expanded(
+// child: Column(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: <Widget>[
+// Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment: CrossAxisAlignment.center,
+// children: [
+// InkWell(
+// child: Icon(
+// Icons.sentiment_very_satisfied,
+// color: Colors.green,
+// ),
+// onTap: () {
+// debugPrint('Excellent');
+// },
+// ),
+// ],
+// ),
+// Expanded(
+// child: Row(
+// mainAxisAlignment: MainAxisAlignment.center,
+// crossAxisAlignment:
+// CrossAxisAlignment.center,
+// children: [
+// Text(
+// 'Excellent',
+// // overflow: TextOverflow.fade,
+// // maxLines: 1,
+// ),
+// ],
+// ),
+// ),
+// ],
+// ),
+// ),
+// ],
+// ),
+// ),
