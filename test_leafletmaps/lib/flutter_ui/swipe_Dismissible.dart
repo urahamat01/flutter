@@ -38,7 +38,24 @@ class _SwipeDismissibleState extends State<SwipeDismissible> {
                   .showSnackBar(SnackBar(content: Text("$item dismissed")));
             },
             // Show a red background as the item is swiped away.
-            background: Container(color: Colors.red),
+            background: Container(
+              color: Colors.green,
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Icon(
+                  Icons.check,
+                ),
+              ),
+            ),
+            secondaryBackground: Container(
+              color: Colors.red,
+              child: Align(
+                alignment: Alignment.centerRight,
+                child: Icon(
+                  Icons.cancel,
+                ),
+              ),
+            ),
             child: ListTile(title: Text('$item')),
           );
         },
