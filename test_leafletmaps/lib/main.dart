@@ -8,10 +8,12 @@ import 'flutter_ui/ExpandadedList.dart';
 import 'dargmarker_drow/dragmarker.dart';
 import 'flutter_ui/flow_menu.dart';
 import 'flutter_ui/itemDroppedOnCustomerCart.dart';
+import 'flutter_ui/physics-simulation.dart';
 import 'flutter_ui/swipe_Dismissible.dart';
 
 void main() {
   runApp(MyApp());
+  //runApp(MaterialApp(home: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -22,7 +24,11 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Map Example'),
         ),
-        body: SwipeDismissible(),
+        body: DraggableCard(
+          child: FlutterLogo(
+            size: 128,
+          ),
+        ),
       ),
       debugShowCheckedModeBanner: false,
     );
